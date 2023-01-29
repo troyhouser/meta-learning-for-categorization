@@ -3,8 +3,8 @@ img_height = 32
 img_width = 32
 batch_size = 8
 
-train_dir = "/Users/troyhouser/Dropbox (University of Oregon)/transfer_models/cartoons/train"
-test_dir = "/Users/troyhouser/Dropbox (University of Oregon)/transfer_models/cartoons/test"
+train_dir = "~/cartoons/train"
+test_dir = "~/cartoons/test"
 
 train_generator = flow_images_from_directory(train_dir,
                                              generator = image_data_generator(),
